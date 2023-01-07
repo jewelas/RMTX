@@ -1,0 +1,585 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xee77459B26f46a253FFEb51295A65399457e2E76",
+    "txHash": "0x21646adb9f46be10fcef0dcf49caa2b02a2057784146af4d48bd4c0d8258fbdb"
+  },
+  "proxies": [
+    {
+      "address": "0x3481B64f4e92FB17979Dc06351a44Fb5103A3AF3",
+      "txHash": "0x3181e650a4e09b7c7dd41442511f8f9378044655b74a7094e66643c3f7586d7f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1658E87A719679cfA595695958Bd9C4c60f24e74",
+      "txHash": "0x0ff911ccec8b156c10c67f4d11019da66cd58af93c82a51bf9e7e0844d632caa",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x34003A186670B82b2369B6eB7c0B911f353bcf86",
+      "txHash": "0x89d0e8ac173b89157edcddb4da86f288e8836556892a76e65609040ce00ba3cc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x62Fa66829c377B8d77fBd520d88d18106b591eac",
+      "txHash": "0xb108e9df17be5334d44d9a6de6411f20c319e21c4b066c7b8b0f17201a234f16",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD4DFC916C56cE28F17AE5F49BF07205524a7446c",
+      "txHash": "0xf2b307968b798b7ee03fd2a785fd19ef62a5b7b147b13fd0a1ba0758605986b9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5f55dB3F8Ce8432b7e4E2935A66A00AB27256fa6",
+      "txHash": "0x3cb225b7c73cb7ebf531e0000c22150ab17eec218c25becb6106dd8153d25e51",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC08799977E3fD49569df319C3f713D60C9F84c76",
+      "txHash": "0x2b3f6c7ea8901f5aff8d29473b9b1c1e5ca38a92dc998e4eb206e694299f427c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x19Cb712F297577a911C59f9704fC6Ce56eCfcfA7",
+      "txHash": "0x3451fad7db2e870f8ca033832acca0bfefb99066a989668ac35904dd1ceec657",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f": {
+      "address": "0x2b16185E8FED153d03D65E421A24CB8667569d19",
+      "txHash": "0xf4be96eddcb29ab65d1b647f06a1351dd7a59758d2fdec03c7279424b5583127",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "70a472a6565241b8b25429da91e02e9013c7c9c949b09e9024dd8721532992a2": {
+      "address": "0x134650d05262c36Dad980F71504aEb581D531d95",
+      "txHash": "0xcbd51f56b61493ac7eaed323792ee46a74c9ac4f826a0698f4ef12a39fd855b1",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "4ae935bad132779c6e288b20f5b4c650273dc6cba4257923bddf47da66819271": {
+      "address": "0x4C9e6C6D92Ff821f99A96D38A8D74a040768Eaa2",
+      "txHash": "0xce93ad0f463c355197b32308ed833ae65c002901d1c984cc8f1ef6f26312fff0",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7e97e90526abc0aae3d95a2cf0fc0f87d5c22e031ca0fb9cd0bbe87c3ecf1e33": {
+      "address": "0xEE4f72eA4Fab5AE1997B8BaaB9Cd6A055f9e1bc0",
+      "txHash": "0xb8732986195441620fb4c83558b1dbbf26492a7ef0129edfba52b123b8c14baa",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\Rematic.sol:450"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\Rematic.sol:453"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "contracts\\Rematic.sol:498"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:550"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:552"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:554"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:556"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:557"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_uint8",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:558"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "contracts\\Rematic.sol:722"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\Rematic.sol:502"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\Rematic.sol:544"
+          },
+          {
+            "label": "uniswapV2Router",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_contract(IUniswapV2Router02)826",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:734"
+          },
+          {
+            "label": "uniswapV2Pair",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:735"
+          },
+          {
+            "label": "eth",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_contract(IWETH)2675",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:736"
+          },
+          {
+            "label": "token1DividendToken",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:738"
+          },
+          {
+            "label": "token2DividendToken",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:739"
+          },
+          {
+            "label": "deadAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:740"
+          },
+          {
+            "label": "swapping",
+            "offset": 20,
+            "slot": "157",
+            "type": "t_bool",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:742"
+          },
+          {
+            "label": "tradingIsEnabled",
+            "offset": 21,
+            "slot": "157",
+            "type": "t_bool",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:743"
+          },
+          {
+            "label": "swapEnabled",
+            "offset": 22,
+            "slot": "157",
+            "type": "t_bool",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:744"
+          },
+          {
+            "label": "token1DividendTracker",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_contract(Token1DividendTracker)6827",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:746"
+          },
+          {
+            "label": "token2DividendTracker",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_contract(Token2DividendTracker)7536",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:747"
+          },
+          {
+            "label": "swapTokensAtAmount",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:749"
+          },
+          {
+            "label": "liquidityFee",
+            "offset": 0,
+            "slot": "161",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:751"
+          },
+          {
+            "label": "token1DividendRewardsFee",
+            "offset": 0,
+            "slot": "162",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:752"
+          },
+          {
+            "label": "token2DividendRewardsFee",
+            "offset": 0,
+            "slot": "163",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:753"
+          },
+          {
+            "label": "buybackFee",
+            "offset": 0,
+            "slot": "164",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:754"
+          },
+          {
+            "label": "teamFee",
+            "offset": 0,
+            "slot": "165",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:755"
+          },
+          {
+            "label": "flexFee",
+            "offset": 0,
+            "slot": "166",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:756"
+          },
+          {
+            "label": "totalFees",
+            "offset": 0,
+            "slot": "167",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:757"
+          },
+          {
+            "label": "gasForProcessing",
+            "offset": 0,
+            "slot": "168",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:758"
+          },
+          {
+            "label": "teamWallet",
+            "offset": 0,
+            "slot": "169",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:760"
+          },
+          {
+            "label": "flexWallet",
+            "offset": 0,
+            "slot": "170",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:761"
+          },
+          {
+            "label": "presaleAddress",
+            "offset": 0,
+            "slot": "171",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:762"
+          },
+          {
+            "label": "transactionLockTimeSell",
+            "offset": 0,
+            "slot": "172",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:765"
+          },
+          {
+            "label": "transactionLockTimeBuy",
+            "offset": 0,
+            "slot": "173",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:766"
+          },
+          {
+            "label": "timeBetweenSells",
+            "offset": 0,
+            "slot": "174",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:767"
+          },
+          {
+            "label": "timeBetweenBuys",
+            "offset": 0,
+            "slot": "175",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:768"
+          },
+          {
+            "label": "bnbValueForBuyBurn",
+            "offset": 0,
+            "slot": "176",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:770"
+          },
+          {
+            "label": "accumulatedBuybackBNB",
+            "offset": 0,
+            "slot": "177",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:771"
+          },
+          {
+            "label": "_excludedFromAntiWhale",
+            "offset": 0,
+            "slot": "178",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:773"
+          },
+          {
+            "label": "maxTransferAmountRate",
+            "offset": 0,
+            "slot": "179",
+            "type": "t_uint256",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:774"
+          },
+          {
+            "label": "isExcludedFromFees",
+            "offset": 0,
+            "slot": "180",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:776"
+          },
+          {
+            "label": "automatedMarketMakerPairs",
+            "offset": 0,
+            "slot": "181",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:778"
+          },
+          {
+            "label": "isStakingContract",
+            "offset": 0,
+            "slot": "182",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:780"
+          },
+          {
+            "label": "_newOwner",
+            "offset": 0,
+            "slot": "183",
+            "type": "t_address",
+            "contract": "Rematic",
+            "src": "contracts\\Rematic.sol:821"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IUniswapV2Router02)826": {
+            "label": "contract IUniswapV2Router02",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWETH)2675": {
+            "label": "contract IWETH",
+            "numberOfBytes": "20"
+          },
+          "t_contract(Token1DividendTracker)6827": {
+            "label": "contract Token1DividendTracker",
+            "numberOfBytes": "20"
+          },
+          "t_contract(Token2DividendTracker)7536": {
+            "label": "contract Token2DividendTracker",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "08ef1f63d32d50c8b737dc74d72b5a9af222635ba4fff1fb6f2b946b83b850b1": {
+      "address": "0x0c011DAb891707d0ddcC11a73446E6082A77088c",
+      "txHash": "0x86ba12eefb317c9bae28e4262f3ee4c08cc53a458cbb381be84c8d7144179299",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:146"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
